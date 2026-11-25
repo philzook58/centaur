@@ -1,0 +1,30 @@
+name = "centaur"
+version = "0.1.0"
+defaultTargets = ["centaur", "ai", "sympyhuman"]
+
+[[lean_lib]]
+name = "Centaur"
+
+[[lean_lib]]
+name = "ai"
+
+[[lean_lib]]
+name = "sympyai"
+
+[[lean_lib]]
+name = "sympyhuman"
+
+[[lean_lib]]
+name = "ai_stewart"
+
+[[lean_lib]]
+name = "ai_podt"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0"
+
+[[lean_exe]]
+name = "centaur"
+root = "Main"
